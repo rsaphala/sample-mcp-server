@@ -36,12 +36,12 @@ PORT=8080 npx tsx main.ts
 
 ## Connect to Intercom
 
-Easiest way to connect to Intercom locally is to use ngrok to tunnel the MCP server to the internet.
+Easiest way to connect to Intercom locally is to use [ngrok](https://ngrok.com/docs/what-is-ngrok) to tunnel the MCP server to the internet.
 
 1. Go to https://app.intercom.com/a/apps/${app_id}$/settings/app-settings/custom-actions
 2. Click on "Custom MCP"
 ![image.png](Intercom-1.png)
-3. Enter the MCP server URL: `http://<ngrok-url>/mcp` 
+3. Enter the MCP server URL: `https://<ngrok-url>/mcp` 
 ![image.png](Intercom-2.png)
 4. Click on "Add MCP Server"
 
