@@ -23,7 +23,7 @@ npx -y tsx main.ts
 ```
 
 
-The server will start on `http://localhost:3000/mcp` by default. You can change the port by setting the `PORT` environment variable:
+The server will start on `http://localhost:3000/mcp` by default. 
 
 ```bash
 PORT=8080 npx tsx main.ts
